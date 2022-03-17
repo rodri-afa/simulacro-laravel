@@ -17,6 +17,8 @@ class HiloFactory extends Factory
     public function definition()
     {
         return [
+            // 'titulo' => "titulo por defecto",
+            // 'contenido' => "contenido random",
             'titulo' => $this->faker->catchPhrase(),
             'contenido' => $this->faker->text(),
         ];
