@@ -15,7 +15,8 @@ return new class extends Migration
     {
         Schema::create('hilos', function (Blueprint $table) {
             $table->id();
-
+            $table->string('titulo');
+            $table->string('contenido');
             $table->timestamps();
         });
     }

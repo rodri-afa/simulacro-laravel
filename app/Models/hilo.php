@@ -8,5 +8,4 @@ use Illuminate\Database\Eloquent\Model;
 class hilo extends Model
 {
     use HasFactory;
-    protected $table = "mi_tabla_de_hilos";
 }

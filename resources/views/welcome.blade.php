@@ -26,14 +26,15 @@
 
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 <h1>Mis hilos</h1>
+
                 @foreach ($hilos as $hilo)
                 <div style="background: white; padding:12px; box-shadow: 0 0 6px rgba(0,0,0,0.3); margin-bottom:12px">
                     <p>Id: {{$hilo->id}}</p>
                     <p>Titulo: {{$hilo->titulo}}</p>
                     <p>Contenido: {{$hilo->contenido}}</p>
-                </div>
-                    
+                </div>                    
                 @endforeach
+                
             </div>
         </div>
     </body>
